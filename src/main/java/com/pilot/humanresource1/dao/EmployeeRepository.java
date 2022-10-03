@@ -11,11 +11,11 @@ import java.util.List;
 public class EmployeeRepository {
     static List<Employee> employees;
 
-    static {
-        employees = new ArrayList<>();
-        employees.add(new Employee(1, "Peter"));
-        employees.add(new Employee(2, "Lucy"));
-    }
+//    static {
+//        employees = new ArrayList<>();
+//        employees.add(new Employee(1, "Peter"));
+//        employees.add(new Employee(2, "Lucy"));
+//    }
 
     public List<Employee> getAllEmployees(){
         return employees;

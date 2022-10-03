@@ -12,7 +12,9 @@ import java.util.List;
 @RequestMapping("/salaryreport")
 public class SalaryReportController {
 
+
     private SalaryReportService service;
+
     private SalaryReportController dao;
 
 

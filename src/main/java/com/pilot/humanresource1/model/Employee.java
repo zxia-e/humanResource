@@ -1,7 +1,15 @@
 package com.pilot.humanresource1.model;
 
+import javax.persistence.*;
+
+@Entity
+@Table(name = "employee")
 public class Employee {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+//    @Column(name = "empid")
     private int id;
+    @Column(name = "name")
     private String name;
 
     public Employee() {
@@ -12,6 +20,7 @@ public class Employee {
         this.name = name;
     }
 
+    @Id
     public int getId() {
         return id;
     }

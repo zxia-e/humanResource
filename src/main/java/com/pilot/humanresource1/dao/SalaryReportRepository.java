@@ -31,6 +31,4 @@ public class SalaryReportRepository {
         temp.setId(maxId + 1);
         salaryreports.add(temp);
     }
-
-
 }
