@@ -28,8 +28,8 @@ public class EmployeeHelper {
     }
 
     public List<Employee> getAllEmployees() {
-        return repo1.findAll();
-//        return repo.getAllEmployees();
+//        return repo1.findAll();
+        return repo.getAllEmployees();
 //        return (List<Employee>) repo.findAll();
     }
 }

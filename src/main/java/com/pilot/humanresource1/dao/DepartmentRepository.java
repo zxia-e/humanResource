@@ -11,11 +11,11 @@ public class DepartmentRepository {
 
     static List<Department> department;
 
-    static {
-        department = new ArrayList<>();
-        department.add(new Department(1, "New York"));
-        department.add(new Department(2, "New Jersey"));
-    }
+//    static {
+//        department = new ArrayList<>();
+//        department.add(new Department(1, "New York"));
+//        department.add(new Department(2, "New Jersey"));
+//    }
 
     public List<Department> getAllDepartments() {
         return department;

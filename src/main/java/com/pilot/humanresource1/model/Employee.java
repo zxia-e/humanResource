@@ -12,8 +12,7 @@ public class Employee {
     @Column(name = "name")
     private String name;
 
-    public Employee() {
-    }
+    public Employee() {}
 
     public Employee(int id, String name) {
         this.id = id;

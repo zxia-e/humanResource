@@ -10,11 +10,11 @@ import java.util.List;
 @Repository
 public class SalaryReportRepository {
     static List<SalaryReport> salaryreports;
-    static {
-        salaryreports = new ArrayList<>();
-        salaryreports.add(new SalaryReport(1, 65000));
-        salaryreports.add(new SalaryReport(2, 70000));
-    }
+//    static {
+//        salaryreports = new ArrayList<>();
+//        salaryreports.add(new SalaryReport(1, 65000));
+//        salaryreports.add(new SalaryReport(2, 70000));
+//    }
 
     public List<SalaryReport> getAllSalaryReports() {
         return salaryreports;

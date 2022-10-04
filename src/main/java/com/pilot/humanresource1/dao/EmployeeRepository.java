@@ -20,7 +20,6 @@ public class EmployeeRepository {
     public List<Employee> getAllEmployees(){
         return employees;
     }
-
     public Employee getEmployeeById(int id){
         return employees.stream().filter(e -> id == e.getId()).findFirst().orElse(null);
     }
